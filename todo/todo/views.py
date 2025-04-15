@@ -8,9 +8,9 @@ from django.contrib.auth.decorators import login_required
 
 
 
-@login_required(login_url='/loginn')
+# @login_required(login_url='/loginn')
 def home(request):
-    return render(request, 'signup.html')
+    return render(request, 'home.html')
 
 
 def signup(request):
